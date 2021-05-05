@@ -1,5 +1,5 @@
 <h1 align="center" style="border-bottom: none;">:bar_chart: IBM Cloud Pak for Data Tutorial: Part VI</h1>
-<h3 align="center">In this hands-on tutorial you will learn how Watson OpenScale can be used to monitor your deployed Machine Learning models</h3>
+<h3 align="center">In this hands-on tutorial you will learn how Watson OpenScale can be used to monitor your deployed machine learning models</h3>
 
 ## Prerequisites
 
