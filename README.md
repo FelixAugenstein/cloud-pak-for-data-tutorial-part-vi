@@ -1,0 +1,1 @@
+# cloud-pak-for-data-tutorial-part-vi
