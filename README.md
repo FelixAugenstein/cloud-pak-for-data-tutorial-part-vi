@@ -31,7 +31,7 @@ The <b>CR</b>oss <b>I</b>ndustry <b>S</b>tandard <b>P</b>rocess for <b>D</b>ata 
 
 ![CRISP DM](readme_images/crisp_dm.png)
 
-In this case we have a business understanding provided (predict churns) and we will focus on getting to understand the data better and prepare it for modeling.
+CRISP-DM is a continuous cycle. Deployed models can become less accurate over time, making precise predictions difficult. In order to trust machine learning models and artificial intelligence, deployed models need to be monitored to ensure aspects such as explainability, fairness, robustness, transparency and privacy. AI Ethics is a big topic, if you are interested you can find out more [here](https://www.ibm.com/artificial-intelligence/ethics).
 
 ## Set up Watson OpenScale
 
