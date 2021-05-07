@@ -46,6 +46,10 @@ In your IBM Cloud account go to Catalog. Select the AI / Machine Learning catego
 Click on the IBM Cloud logo in the upper left to get back to your dashboard. Then click services to select your Watson OpenScale service to get started.
 If you are asked for Auto Setup you can select it, this will take about 10minutes and set things up automatically for you.
 When it says “All set!“ You can click „Let’s go“.
+The automated setup performs tasks for you in the background and automatically makes the following decisions for you:
+
+- If you have multiple IBM Watson Machine Learning instances set up, the installation process runs an API call to list the instances and chooses the Watson Machine Learning instance that appears first in the resulting list.
+- To create a new lite version of a Watson Machine Learning instance, the Watson OpenScale installer uses the default resource group for your IBM Cloud account.
 
 Note: After the Auto Setup is complete you have another Deployment Space for Watson OpenScale available in your Cloud Pak for Data as a Service.
 
