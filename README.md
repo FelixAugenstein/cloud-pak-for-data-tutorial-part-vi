@@ -40,3 +40,14 @@ CRISP-DM is a continuous cycle. Deployed models can become less accurate over ti
 In your IBM Cloud account go to Catalog. Select the AI / Machine Learning category, then click Watson OpenScale. On the next page you can select the Lite Plan, it should cover all required features for this tutorial and you can also choose a region, ideally the region in which your previously created services run. Click "Create". 
 
 ![Catalog Watson OpenScale](readme_images/catalog_openscale.png)
+
+<h4>2) Watson OpenScale Auto Setup</h4>
+
+Click on the IBM Cloud logo in the upper left to get back to your dashboard. Then click services to select your Watson OpenScale service to get started.
+If you are asked for Auto Setup you can select it, this will take about 10minutes and set things up automatically for you.
+When it says “All set!“ You can click „Let’s go“.
+
+Note: After the Auto Setup is complete you have another Deployment Space for Watson OpenScale available in your Cloud Pak for Data as a Service.
+
+![OpenScale Deployment Space](readme_images/openscale_deployment_space.png)
+
