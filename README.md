@@ -53,6 +53,10 @@ Note: After the Auto Setup is complete you have another Deployment Space for Wat
 
 <h4>3) Watson OpenScale Guided Tour</h4>
 
-The automated setup ends with a guided tour, which highlights key features of Watson OpenScale as you move through the scenario by clicking Next (You can exit the tour at any point). When you finished the tour Watson OpenScale is completely set up and you can explore the UI on your own. 
+The automated setup ends with a guided tour, which highlights key features of Watson OpenScale as you move through the scenario by clicking Next (You can exit the tour at any point). The tour takes you through the 4 main areas of Watson OpenScale: Insights, Explanations, Configuration, and Support. In the image below you can see the first area Insights. When you finished the tour Watson OpenScale is completely set up and you can explore the UI on your own. 
 
-The credit risk model was automatically deployed so that you have something to explore. This tutorial uses the credit risk model to help you explore the features of Watson OpenScale.
+![OpenScale Guided Tour](readme_images/guided_tour.png)
+
+## Data for this tutorial
+
+The model used in this tutorial is a credit risk predictor, which was automatically deployed to OpenScale so that you have something to explore. The data set contains loan applicant data and is used to predict “Risk” or “No Risk”. The data includes two attributes that are considered sensitive: sex (gender) and age. Using Watson OpenScale with this model, you will be able to detect, explain and fix gender discrimination in the credit risk predictor.
