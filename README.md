@@ -57,6 +57,16 @@ The automated setup ends with a guided tour, which highlights key features of Wa
 
 ![OpenScale Guided Tour](readme_images/guided_tour.png)
 
+
 ## Data for this tutorial
 
 The model used in this tutorial is a credit risk predictor, which was automatically deployed to OpenScale so that you have something to explore. The data set contains loan applicant data and is used to predict “Risk” or “No Risk”. The data includes two attributes that are considered sensitive: sex (gender) and age. Using Watson OpenScale with this model, you will be able to detect, explain and fix gender discrimination in the credit risk predictor.
+
+
+## Monitor model fairness, quality and drift
+
+For Fairness, Quality and Drift of the GermanCreditRiskModel you should see one or even more alerts each on your dashboard.
+- Fairness monitor - looks for biased outcomes from your model. If there is a fairness issue, a warning icon appears.
+- Quality monitor -  determines how well your model predicts outcomes. When quality monitoring is enabled, it generates a set of metrics every hour by default.
+- Drift monitor - determines if the data the model is processing is causing a drop in accuracy over time.
+
