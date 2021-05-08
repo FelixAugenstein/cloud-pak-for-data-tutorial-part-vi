@@ -72,6 +72,24 @@ For Fairness, Quality and Drift of the GermanCreditRiskModel you should see one 
 
 <h4>1) Fairness</h4>
 
+On your dashboard select the GermanCreditRiskModel tile to view more details about that deployment.
+Notice the red alert indicators. You should see a red indicator under Fairness for Sex (female). This indicates that there has been an alert for the Fairness monitor. Alerts are configurable based on thresholds for fairness outcomes, which can be set and altered as needed.
+Click on the Fairness score.
+
+![Fairness Score](readme_images/fairness_score.png)
+
+Use your mouse and hover over the chart to see the statistics for an individual hour. Click on the chart where the fairness score is lower.
+
+![Evaluations Chart](readme_images/evaluations_chart.png)
+
+You can choose the monitored attribute - for instance "Sex" - and the data set - for instance "Balanced". As you can see in the image the model is biased, because the monitored group female received favorable outcomes 28.0% of the time. The perfect equality is 56.0%. The fairness score for Sex in this case is 50.0% (28.0/56.0) (your data might vary). You can even click "View payload transactions" to explain individual predictions and inspect what feature values would result in a different outcome.
+
+![Monitored Attribute](readme_images/monitored_attribute.png)
+
+Now select the Debiased Data Set and click view details. As you can see the fairness for Sex and Age should be improved while the Quality remains the same. Click "View Debiased Endpoint". Watson OpenScale provides a scoring endpoint for this debiased model. Example code snippets are provided to help you use this debiased endpoint in your apps for further testing or production.
+
+![Debiased Model](readme_images/debiased_model.png)
+
 <h4>2) Quality</h4>
 
 <h4>3) Drift</h4>
