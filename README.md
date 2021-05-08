@@ -70,3 +70,9 @@ For Fairness, Quality and Drift of the GermanCreditRiskModel you should see one 
 - Quality monitor -  determines how well your model predicts outcomes. When quality monitoring is enabled, it generates a set of metrics every hour by default.
 - Drift monitor - determines if the data the model is processing is causing a drop in accuracy over time.
 
+<h4>1) Fairness</h4>
+
+<h4>2) Quality</h4>
+
+<h4>3) Drift</h4>
+
