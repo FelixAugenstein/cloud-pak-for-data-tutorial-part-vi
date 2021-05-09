@@ -100,16 +100,15 @@ The following table shows available Quality metrics.
 
 Metric | Description
 --- | ---
-**#Greetings** | **#Begrüßung**
-"Area under ROC" | "Area under recall and false positive rate curve."
-"Area under PR" | "Area under precision and recall curve."
-"Accuracy" | "Accuracy is proportion of correct predictions."
-"True positive rate (TPR)" | "Proportion of correct predictions in predictions of positive class."
-"False positive rate (FPR)" | "Proportion of incorrect predictions in positive class."
-"Recall" | "Proportion of correct predictions in positive class."
-"Precision" | "Proportion of correct predictions in predictions of positive class."
-"F1-Measure" | "Harmonic mean of precision and recall."
-"Logarithmic loss" | "Mean of logarithms target class probabilities (confidence). It is also known as Expected log-likelihood."
+Area under ROC | Area under recall and false positive rate curve.
+Area under PR | Area under precision and recall curve.
+Accuracy | Accuracy is proportion of correct predictions.
+True positive rate (TPR) | Proportion of correct predictions in predictions of positive class.
+False positive rate (FPR) | Proportion of incorrect predictions in positive class.
+Recall | Proportion of correct predictions in positive class.
+Precision | Proportion of correct predictions in predictions of positive class.
+F1-Measure | Harmonic mean of precision and recall.
+Logarithmic loss | Mean of logarithms target class probabilities (confidence). It is also known as Expected log-likelihood.
 
 <h4>3) Drift</h4>
 
