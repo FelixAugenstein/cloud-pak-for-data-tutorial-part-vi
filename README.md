@@ -92,6 +92,12 @@ Now select the Debiased Data Set and click view details. As you can see the fair
 
 <h4>2) Quality</h4>
 
+Instead of selecting a Fairness metric, use the left sidebar to select a Quality metric. As you can see in the picture, there was an alert for Area under ROC. 
+
+![Debiased Model](readme_images/quality_score.png)
+
+The following table shows available Quality metrics.
+
 <h4>3) Drift</h4>
 
 ## If you have any questions just contact me
