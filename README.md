@@ -92,11 +92,24 @@ Now select the Debiased Data Set and click view details. As you can see the fair
 
 <h4>2) Quality</h4>
 
-Instead of selecting a Fairness metric, use the left sidebar to select a Quality metric. As you can see in the picture, there was an alert for Area under ROC. 
+Instead of selecting a Fairness metric, use the left sidebar to select a Quality metric. As you can see in the image below, there was an alert for Area under ROC. 
 
 ![Debiased Model](readme_images/quality_score.png)
 
 The following table shows available Quality metrics.
+
+Metric | Description
+--- | ---
+**#Greetings** | **#Begrüßung**
+"Area under ROC" | "Area under recall and false positive rate curve."
+"Area under PR" | "Area under precision and recall curve."
+"Accuracy" | "Accuracy is proportion of correct predictions."
+"True positive rate (TPR)" | "Proportion of correct predictions in predictions of positive class."
+"False positive rate (FPR)" | "Proportion of incorrect predictions in positive class."
+"Recall" | "Proportion of correct predictions in positive class."
+"Precision" | "Proportion of correct predictions in predictions of positive class."
+"F1-Measure" | "Harmonic mean of precision and recall."
+"Logarithmic loss" | "Mean of logarithms target class probabilities (confidence). It is also known as Expected log-likelihood."
 
 <h4>3) Drift</h4>
 
