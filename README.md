@@ -94,7 +94,7 @@ Now select the Debiased Data Set and click view details. As you can see the fair
 
 Instead of selecting a Fairness metric, use the left sidebar to select a Quality metric. As you can see in the image below, there was an alert for Area under ROC. 
 
-![Debiased Model](readme_images/quality_score.png)
+![Quality Score](readme_images/quality_score.png)
 
 The following table shows available Quality metrics.
 
@@ -111,6 +111,21 @@ F1-Measure | Harmonic mean of precision and recall.
 Logarithmic loss | Mean of logarithms target class probabilities (confidence). It is also known as Expected log-likelihood.
 
 <h4>3) Drift</h4>
+
+Even if you start with a great training data set and create a fair and accurate model, over time your training data may become a less appropriate example of real world decisions. Watson OpenScale uses drift detection to warn you and help you update your model to be more relevant.
+To see drift in accuracy and data consistency over time, use the left sidebar to select Drop in accuracy.
+
+![Drift Score](readme_images/drift_score.png)
+
+Watson OpenScale uses drift detection to alert you when there is a drift in accuracy or a drift in data consistency.
+
+- A drift in data consistency indicates that the runtime data is not consistent with the training data.
+- A drift in accuracy indicates an increase transactions similar to those that did not evaluate correctly during training.
+
+You can click on the chart at a point in time that shows a drop in accuracy to see the transactions that contributed to drift.
+Watson OpenScale analyzes all transactions to find the ones that contribute to drift. It then groups the transactions based on the similarity of each feature’s contribution to the drift. In each group, Watson OpenScale also estimates the important features that played a major role in the drift in accuracy and classifies their feature impact as large, some, and small. In order to fix drift a good place to start is with new data regarding features that have a large impact on drift in accuracy.
+
+![Large Influence](readme_images/large_influence.png)
 
 ## If you have any questions just contact me
 Felix Augenstein<br>
