@@ -68,7 +68,7 @@ The model used in this tutorial is a credit risk predictor, which was automatica
 For Fairness, Quality and Drift of the GermanCreditRiskModel you should see one or even more alerts each on your dashboard.
 - Fairness monitor - looks for biased outcomes from your model. If there is a fairness issue, a warning icon appears.
 - Quality monitor -  determines how well your model predicts outcomes. When quality monitoring is enabled, it generates a set of metrics every hour by default.
-- Drift monitor - determines if the data the model is processing is causing a drop in accuracy over time.
+- Drift monitor - determines if the data the model is processing is causing a drop in accuracy or in data consistency over time.
 
 <h4>1) Fairness</h4>
 
@@ -120,7 +120,7 @@ To see drift in accuracy and data consistency over time, use the left sidebar to
 Watson OpenScale uses drift detection to alert you when there is a drift in accuracy or a drift in data consistency.
 
 - A drift in data consistency indicates that the runtime data is not consistent with the training data.
-- A drift in accuracy indicates an increase transactions similar to those that did not evaluate correctly during training.
+- A drift in accuracy indicates an increase in transactions similar to those that did not evaluate correctly during training.
 
 You can click on the chart at a point in time that shows a drop in accuracy to see the transactions that contributed to drift.
 Watson OpenScale analyzes all transactions to find the ones that contribute to drift. It then groups the transactions based on the similarity of each feature’s contribution to the drift. In each group, Watson OpenScale also estimates the important features that played a major role in the drift in accuracy and classifies their feature impact as large, some, and small. In order to fix drift a good place to start is with new data regarding features that have a large impact on drift in accuracy.
