@@ -126,9 +126,3 @@ You can click on the chart at a point in time that shows a drop in accuracy to s
 Watson OpenScale analyzes all transactions to find the ones that contribute to drift. It then groups the transactions based on the similarity of each feature’s contribution to the drift. In each group, Watson OpenScale also estimates the important features that played a major role in the drift in accuracy and classifies their feature impact as large, some, and small. In order to fix drift a good place to start is with new data regarding features that have a large impact on drift in accuracy.
 
 ![Large Influence](readme_images/large_influence.png)
-
-## If you have any questions just contact me
-Felix Augenstein<br>
-Digital Tech Ecosystem & Developer Representative @IBM<br>
-Twitter: [@F_Augenstein](https://twitter.com/F_Augenstein)<br>
-LinkedIn: [linkedin.com/in/felixaugenstein](https://www.linkedin.com/in/felixaugenstein/)
